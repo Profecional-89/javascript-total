@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>Pagina 1</title>
+    <title>Pagina 2</title>
     <style>
         body {
             background-color: #ff5555;
@@ -16,9 +16,23 @@
         function ponerTituloRojo() {
             document.getElementById("titulo").style = "color: white"
         }
+
+        function ponerTituloNegro() {
+            document.getElementById("titulo").style = "color: black"
+        }
+
+        function MostrarMensaje(){
+            alert("Hizo clcik")
+        }
+
     </script>
 
-    <h1 id="titulo" onmouseover="ponerTituloRojo()">Bienvenido a JavaScript TOTAL</h1>
+    <h1 id="titulo"
+    onmouseover="ponerTituloRojo()" 
+    onmouseout="ponerTituloNegro()"
+    onclick="MostrarMensaje()">
+    Bienvenido a JavaScript TOTAL
+    </h1>
     <h2>El primer paso es el mas grande</h2>
     <p>Esta pagina es muy sencilla</p>
     <p>(pero tiene un secreto >>> Presiona F12)</p>

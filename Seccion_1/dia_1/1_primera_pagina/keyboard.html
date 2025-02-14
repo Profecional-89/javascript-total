@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <script>
+
+        function MostrarMensaje() {
+            alert("funcion")
+        }
+    </script>
+    <section>
+
+        <label> Evento Keypress </label>
+            <input type="text" onkeypress="MostrarMensaje()" />
+             <p>—Este atributo responde al evento keypress. Este evento se desencadena
+             cuando se activa el elemento y se pulsa una tecla. </p>
+
+        <br>
+
+        <label> Evento KeyDown </label>
+        <input type="text" onkeydown="MostrarMensaje()" />
+         <p>—Este atributo responde al evento keydown. Este evento se desencadena
+            cuando se activa el elemento y se pulsa una tecla.</p>
+
+        <label> Evento KeyUp </label>
+        <input type="text" onkeyUp="MostrarMensaje()" />
+         <p>——Este atributo responde al evento keyup. Este evento se desencadena cuando
+            se activa el elemento y se libera una tecla.</p>
+            
+    </section>

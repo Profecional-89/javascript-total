@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>juego de preguntas</title>
+</head>
+    
+<body onload="StartCounter">
+    <h2 id="counter">null</h2>
+
+    <p>1. Cual es la capital Rusia?</p>
+    <input type="text" id="answer1">
+    <p>2. cuanto pesa un perro adulto?</p>
+    <input type="text" id="answer2">
+    <p>3. Cual es el modelo de telefono mas famoso?</p>
+    <input type="text" id="answer3">
+    <p>4. cuanto es 7 x 7</p>
+    <input type="text" id="answer4">
+    <p>5. cuantas horas dura un dia?</p>
+    <input type="text" id="answer5">
+
+    <br>
+    <br>
+
+    <button onclick="CheckAnswers()">Termine!</button>
+
+    <audio id="Audio">
+        <source src="audios/gameover.mp3" type="audio/mp3">
+        Sonido no habilitado
+      </audio>
+
+    <script>
+        function CheckAnswers(){
+            alert("xd");
+        }
+
+        let elementoSegundos = 30;
+        let title = document.getElementById("counter");
+        let audio = document.getElementById("Audio")
+        
+    </script>
+</body>
+
+</html>

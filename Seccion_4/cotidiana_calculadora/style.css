@@ -1,5 +1,21 @@
 input {
     margin: 5px;
-    padding: 5px 5px;
+    padding: 5px 25px;
     width: 75px;
+}
+button {
+    margin: 1px;
+    padding: 1px 15px;
+    font-size: 15px;
+}
+
+#p {
+    margin: 10px;
+    padding: 5px 15px;
+    font-size: 15px;
+}
+
+#r {
+    padding: 5px 25px;
+    font-size: 15px;
 }

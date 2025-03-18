@@ -11,19 +11,23 @@
     <h1>Calculadora</h1>
     <input type="number" id="input_1">  <input type="number" id="input_2">
     <br>
-    <button onclick="do_('+')">+</button>
-    <button onclick="do_('-')">-</button>
-    <button onclick="do_('*')">X</button>
-    <button onclick="do_('/')">/</button>
-
+    <button onclick="plus()">+</button>
+    <button onclick="minus()">-</button>
+    <button onclick="times()">X</button>
+    <button onclick="divide()">/</button>
     <br>
-
-    <button id="r" onclick="raiz()">raíz</button>
-    <button id="p" onclick="potencia()">potencia</button>
+    <button id="function_buttons_1" onclick="raiz()">raíz</button>
+    <button id="function_buttons_1" onclick="potencia()">potencia</button>
     <br>
-    <button onclick="absoluto()">absoluto</button>
-    <button onclick="randomNum()">random</button>
+    <button id="function_buttons" onclick="absoluto()">absoluto</button>
+    <button id="function_buttons" onclick="randomNum()">random</button>
     <br>
+    <h3 id="result">Resultado:</h3>
+    <input id="result_input" type="text" id="input_3">
+    <br>
+    <button id="down_buttons" onclick="Round()">round</button>
+    <button id="down_buttons" onclick="Floor()">floor</button>
+    <button id="down_buttons" onclick="Ceil()">ceil</button>
 </body>
 
 </html>

@@ -1,21 +1,50 @@
 input {
     margin: 5px;
-    padding: 5px 25px;
-    width: 75px;
+    padding: 5px 10px;
+    width: 65px;
+    background-color: #464646;
+    border-style: hidden;
+    color: #ffffff;
 }
 button {
-    margin: 1px;
-    padding: 1px 15px;
+    margin: -3px;
+    padding: 10px 20px;
     font-size: 15px;
+
+    background-color: rgb(105, 105, 105);
+    border-style: hidden;
+    color: white;
+    font-weight: 650;
 }
 
-#p {
-    margin: 10px;
-    padding: 5px 15px;
-    font-size: 15px;
+body {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#r {
-    padding: 5px 25px;
+#function_buttons {
+    padding: 10px 17.5px;
     font-size: 15px;
+    background-color: #878787;
+}
+#function_buttons_1 {
+    padding: 10px 25px;
+    font-size: 15px;
+    background-color: #878787;
+}
+
+h3 {
+    margin-right: 100px;
+}
+
+#result_input {
+    padding: 5px 65px;
+    margin-top: -20px;
+    color: #ffffff;
+}
+
+#down_buttons {
+    padding: 10px 15.8px;
+    background-color: #00916b;
 }

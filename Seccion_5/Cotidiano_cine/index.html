@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="IMG/Nova-Cinemas.png">
+    <title>Cine</title>
+</head>
+
+<body>
+    <img src="IMG/Nova-Cinemas.png" loading="lazy">
+    <h1>¡Bienvenidos al cine!</h1>
+    <h3>--- Menú ---</h3>
+    <p>Queremos hacer de tu visita, una experiencia más placentera. Para eso, ingresa tu edad y</p>
+    <p>selecciona el género que más guste, y te recomendamos tu pelicula ideal.</p>
+    <br>
+    <p>Edad: <input type="number" id="age"> </p> 
+    <br>
+    <button onclick="checkAge('drama')">Drama</button>
+    <button onclick="checkAge('comedy')">Comedia</button>
+    <button onclick="checkAge('musical')">Musical</button>
+    <button onclick="checkAge('crime')">Crimen</button>
+    <br>
+    <h2 id="movie_recommended"></h2>
+</body>
+
+</html>
